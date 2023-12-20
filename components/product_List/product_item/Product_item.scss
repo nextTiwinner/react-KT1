@@ -1,0 +1,39 @@
+.product {
+    width: 200px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.product > h1 {
+    background-color: blueviolet;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+.product > h1, p {
+    text-align: center;
+}
+.product > h1, p:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.product > button {
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+}
+.product > p:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}

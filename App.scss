@@ -1,0 +1,22 @@
+.addNewProduct {
+  display: flex;
+  margin: 30px auto;
+  height: 60px;
+  width: 300px;
+  background-color: skyblue;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  margin-bottom: 100px;
+}
+
+.hov {
+  transition: all ease-in-out .3s;
+  box-shadow: 2px 5px 10px rgb(103, 158, 180);
+}
+.hov:hover {
+  box-shadow: 3px 6px 10px rgb(81, 125, 143);
+}
